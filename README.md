@@ -10,6 +10,8 @@
 
 search `fish-redux-template` in Visual Studio Marketplace 
 
+Also, templates can be replaced with your own templates
+
 Enjoy yourself~
 
 ![fish-redux-template](https://raw.githubusercontent.com/huangjianke/fish-redux-template/master/images/fish-redux-template.png)
