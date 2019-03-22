@@ -3,8 +3,6 @@ import * as path from 'path';
 import * as os from 'os';
 
 export class Config {
-
-    public context: vscode.ExtensionContext;
     public get templatesFolderPath(): string {
         return path.join(os.homedir(), `.vscode${path.sep}fish-redux-templates`);
     }

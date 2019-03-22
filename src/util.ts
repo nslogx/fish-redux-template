@@ -8,7 +8,7 @@ export function copyFile(src: PathLike, dst: PathLike) {
         fs
             .createReadStream(src)
             .pipe(fs.createWriteStream(dst))
-            .on('close', err => {
+            .on('close', (err: any) => {
                 if (err) {
                     reject(err);
                 } else {
