@@ -30,7 +30,7 @@ export function activate(context: vscode.ExtensionContext) {
                     }
                 }).then(async function (text) {
                     if (!text) { return; }
-                    util.copyFolder(config.pageTemplatesFolderPath, pathname);
+                    util.copyFolder(config.pageTemplatesFolderPath, pathname, text);
                 });
         } catch (error) {
             vscode.window.showErrorMessage(`Fish-Redux-Template: ${error.message}`);
@@ -53,7 +53,7 @@ export function activate(context: vscode.ExtensionContext) {
                     }
                 }).then(async function (text) {
                     if (!text) { return; }
-                    util.copyFolder(config.componentTemplatesFolderPath, pathname);
+                    util.copyFolder(config.componentTemplatesFolderPath, pathname, text);
                 });
         } catch (error) {
             vscode.window.showErrorMessage(`Fish-Redux-Template: ${error.message}`);
@@ -76,7 +76,7 @@ export function activate(context: vscode.ExtensionContext) {
                     }
                 }).then(async function (text) {
                     if (!text) { return; }
-                    util.copyFolder(config.adapterTemplatesFolderPath, pathname);
+                    util.copyFolder(config.adapterTemplatesFolderPath, pathname, text);
                 });
         } catch (error) {
             vscode.window.showErrorMessage(`Fish-Redux-Template: ${error.message}`);
