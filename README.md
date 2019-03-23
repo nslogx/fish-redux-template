@@ -1,5 +1,7 @@
 # fish-redux-template
 
+![fish-redux-template](https://raw.githubusercontent.com/huangjianke/fish-redux-template/master/images/logo.png)
+
 ## Usage
 
 - `git clone git@github.com:huangjianke/fish-redux-template.git`

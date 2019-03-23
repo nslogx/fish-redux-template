@@ -2,8 +2,9 @@
 	"name": "fish-redux-template",
 	"displayName": "fish-redux-template",
 	"description": "Generate fish-redux Template",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "huangjianke",
+	"icon": "images/logo.png",
 	"license": "SEE LICENSE IN LICENSE.md",
 	"repository": {
 		"type": "git",
