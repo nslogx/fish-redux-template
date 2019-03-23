@@ -18,4 +18,6 @@ Enjoy yourself~
 
 ![fish-redux-template](https://raw.githubusercontent.com/huangjianke/fish-redux-template/master/images/fish-redux-template.png)
 
+## Template for Android Studio
 
+https://github.com/BakerJQ/FishReduxTemplateForAS
