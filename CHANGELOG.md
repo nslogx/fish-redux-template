@@ -1,9 +1,8 @@
 # Change Log
 
-All notable changes to the "fish-redux-template" extension will be documented in this file.
+## [1.0.0] - 2019-03-22
+- I was born
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+## [1.0.1] - 2019-03-23
+- Update templates content
+- Update logo
