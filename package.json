@@ -88,6 +88,7 @@
 	},
 	"dependencies": {
 		"@types/mkdirp": "^0.5.2",
+		"i": "^0.3.6",
 		"lodash": "^4.17.4",
 		"mkdirp": "^0.5.1",
 		"mz": "^2.7.0"

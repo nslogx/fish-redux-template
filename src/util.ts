@@ -3,6 +3,8 @@ import * as fs from 'mz/fs';
 import config from './config';
 import { PathLike } from 'mz/fs';
 
+const inflect = require('i')(true); 
+
 export function copyFile(src: PathLike, dst: PathLike) {
     return new Promise((resolve, reject) => {
         fs
@@ -56,7 +58,7 @@ export async function copyFolder(src: string, dst: string, name: string) {
             } else if (stats.isFile()) {
                 await copyFile(source, target);
                 if (name.length > 0) {
-                    await relaceContent(name, target);
+                    await relaceContent(inflect.camelize(name), target);
                 }
             }
         }),
