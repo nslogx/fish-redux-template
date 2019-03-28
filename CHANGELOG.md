@@ -12,3 +12,7 @@
 
 ## [0.0.4] - 2019-03-28
 - Support Fish Redux 0.1.3
+
+## [0.0.5] - 2019-03-28
+- Support Fish Redux 0.1.3
+- fixed bugs
