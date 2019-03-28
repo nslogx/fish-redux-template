@@ -1,6 +1,11 @@
-# fish-redux-template
+## fish-redux-template
 
 ![fish-redux-template](https://raw.githubusercontent.com/huangjianke/fish-redux-template/master/images/logo.png)
+
+## What is Fish Redux ?
+Fish Redux is an assembled flutter application framework based on Redux state management. It is suitable for building medium and large applications.
+
+https://github.com/alibaba/fish-redux
 
 ## Usage
 
