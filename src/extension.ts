@@ -76,7 +76,18 @@ export function activate(context: vscode.ExtensionContext) {
                     }
                 }).then(async function (text) {
                     if (!text) { return; }
-                    util.copyFolder(config.adapterTemplatesFolderPath, pathname, text);
+                    window.showQuickPick(
+                        ['dynamic', 'static', 'custom'],
+                        {
+                            canPickMany: false,
+                            ignoreFocusOut: true,
+                            placeHolder: 'Please select adapter type'
+                        }
+                    ).then(async function (type) {
+                        if (!type) { return; }
+                        let adapter_path = `${config.adapterTemplatesFolderPath}${path.sep}${type}`;
+                        util.copyFolder(adapter_path, pathname, text);
+                    });
                 });
         } catch (error) {
             vscode.window.showErrorMessage(`Fish-Redux-Template: ${error.message}`);
