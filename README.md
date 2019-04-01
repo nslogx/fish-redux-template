@@ -1,3 +1,8 @@
+[![](https://img.shields.io/visual-studio-marketplace/v/huangjianke.fish-redux-template.svg)](https://marketplace.visualstudio.com/items?itemName=huangjianke.fish-redux-template)
+[![](https://img.shields.io/visual-studio-marketplace/azure-devops/installs/total/huangjianke.fish-redux-template.svg)](https://marketplace.visualstudio.com/items?itemName=huangjianke.fish-redux-template)
+[![](https://img.shields.io/visual-studio-marketplace/d/huangjianke.fish-redux-template.svg)](https://marketplace.visualstudio.com/items?itemName=huangjianke.fish-redux-template)
+[![](https://img.shields.io/visual-studio-marketplace/r/huangjianke.fish-redux-template.svg)](https://marketplace.visualstudio.com/items?itemName=huangjianke.fish-redux-template)
+
 ## fish-redux-template
 
 ![fish-redux-template](https://raw.githubusercontent.com/huangjianke/fish-redux-template/master/images/logo.png)
