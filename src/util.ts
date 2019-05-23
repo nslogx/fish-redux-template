@@ -95,11 +95,11 @@ export async function checkFolderIsExits(name: string) {
 export async function generateFolderPath(name: string, type: string, uri: any) {
     let foldername = name + '_' + type;
     let pathname = '';
-    let stat = await fs.stat(uri.path);
+    let stat = await fs.stat(uri.fsPath);
     if (stat.isDirectory()) {
-        pathname = `${uri.path}${path.sep}${foldername}`;
+        pathname = `${uri.fsPath}${path.sep}${foldername}`;
     } else {
-        pathname = `${path.dirname(uri.path)}${path.sep}${foldername}`;
+        pathname = `${path.dirname(uri.fsPath)}${path.sep}${foldername}`;
     }
     return pathname;
 }
