@@ -1,96 +1,96 @@
 {
-	"name": "fish-redux-template",
-	"displayName": "fish-redux-template",
-	"description": "Generate fish-redux Template",
-	"version": "0.0.6",
-	"publisher": "huangjianke",
-	"icon": "images/logo.png",
-	"license": "SEE LICENSE IN LICENSE.md",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/huangjianke/fish-redux-template.git"
-	},
-	"engines": {
-		"vscode": "^1.32.0"
-	},
-	"categories": [
-		"Other"
-	],
-	"keywords": [
-		"Template",
-		"Fish Redux",
-		"Flutter"
-	],
-	"activationEvents": [
-		"*"
-	],
-	"main": "./out/extension.js",
-	"contributes": {
-		"commands": [
-			{
-				"command": "extension.GenerateFishReduxPageTemplate",
-				"title": "Generate Page Template",
-				"category": "Fish-Redux Template"
-			},
-			{
-				"command": "extension.GenerateFishReduxComponentTemplate",
-				"title": "Generate Component Template",
-				"category": "Fish-Redux-Template"
-			},
-			{
-				"command": "extension.GenerateFishReduxAdapterTemplate",
-				"title": "Generate Adapter Template",
-				"category": "Fish-Redux-Template"
-			},
-			{
-				"command": "extension.OpenFishReduxTemplateFolder",
-				"title": "Open Template Folder",
-				"category": "Fish-Redux-Template"
-			}
-		],
-		"menus": {
-			"explorer/context": [
-				{
-					"command": "extension.GenerateFishReduxPageTemplate",
-					"group": "1_modification"
-				},
-				{
-					"command": "extension.GenerateFishReduxComponentTemplate",
-					"group": "1_modification"
-				},
-				{
-					"command": "extension.GenerateFishReduxAdapterTemplate",
-					"group": "1_modification"
-				},
-				{
-					"command": "extension.OpenFishReduxTemplateFolder",
-					"group": "1_modification"
-				}
-			]
-		}
-	},
-	"scripts": {
-		"vscode:prepublish": "npm run compile",
-		"compile": "tsc -p ./",
-		"watch": "tsc -watch -p ./",
-		"postinstall": "node ./node_modules/vscode/bin/install",
-		"test": "npm run compile && node ./node_modules/vscode/bin/test"
-	},
-	"devDependencies": {
-		"typescript": "^3.3.1",
-		"vscode": "^1.1.28",
-		"tslint": "^5.12.1",
-		"@types/node": "^10.12.21",
-		"@types/mocha": "^2.2.42",
-		"mocha": "^5.0.0",
-		"@types/mz": "0.0.32",
-		"@types/lodash": "^4.14.99"
-	},
-	"dependencies": {
-		"@types/mkdirp": "^0.5.2",
-		"i": "^0.3.6",
-		"lodash": "^4.17.4",
-		"mkdirp": "^0.5.1",
-		"mz": "^2.7.0"
-	}
+  "name": "fish-redux-template",
+  "displayName": "fish-redux-template",
+  "description": "Generate fish-redux Template",
+  "version": "0.0.7",
+  "publisher": "huangjianke",
+  "icon": "images/logo.png",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huangjianke/fish-redux-template.git"
+  },
+  "engines": {
+    "vscode": "^1.32.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "Template",
+    "Fish Redux",
+    "Flutter"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.GenerateFishReduxPageTemplate",
+        "title": "Generate Page Template",
+        "category": "Fish-Redux Template"
+      },
+      {
+        "command": "extension.GenerateFishReduxComponentTemplate",
+        "title": "Generate Component Template",
+        "category": "Fish-Redux-Template"
+      },
+      {
+        "command": "extension.GenerateFishReduxAdapterTemplate",
+        "title": "Generate Adapter Template",
+        "category": "Fish-Redux-Template"
+      },
+      {
+        "command": "extension.OpenFishReduxTemplateFolder",
+        "title": "Open Template Folder",
+        "category": "Fish-Redux-Template"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "extension.GenerateFishReduxPageTemplate",
+          "group": "1_modification"
+        },
+        {
+          "command": "extension.GenerateFishReduxComponentTemplate",
+          "group": "1_modification"
+        },
+        {
+          "command": "extension.GenerateFishReduxAdapterTemplate",
+          "group": "1_modification"
+        },
+        {
+          "command": "extension.OpenFishReduxTemplateFolder",
+          "group": "1_modification"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "npm run compile && node ./node_modules/vscode/bin/test"
+  },
+  "devDependencies": {
+    "typescript": "^3.3.1",
+    "vscode": "^1.1.28",
+    "tslint": "^5.12.1",
+    "@types/node": "^10.12.21",
+    "@types/mocha": "^2.2.42",
+    "mocha": "^5.0.0",
+    "@types/mz": "0.0.32",
+    "@types/lodash": "^4.14.99"
+  },
+  "dependencies": {
+    "@types/mkdirp": "^0.5.2",
+    "i": "^0.3.6",
+    "lodash": "^4.17.4",
+    "mkdirp": "^0.5.1",
+    "mz": "^2.7.0"
+  }
 }

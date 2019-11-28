@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.0.7] - 2019-11-28
+- fixed issue (#9)[https://github.com/huangjianke/fish-redux-template/issues/9]
+
 ## [0.0.6] - 2019-05-23
 - fixed issue (#3)[https://github.com/huangjianke/fish-redux-template/issues/3]
 
